@@ -5,7 +5,7 @@ import 'dart:math';
 
 void main() => runApp(
       MaterialApp(
-         debugShowCheckedModeBanner: false,
+        debugShowCheckedModeBanner: false,
         home: MyApp(),
       ),
     );
@@ -16,13 +16,11 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
         body: SafeArea(
             child: Container(
-      
       child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
@@ -33,7 +31,6 @@ class _MyAppState extends State<MyApp> {
               crossAxisAlignment: CrossAxisAlignment.center,
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-               
                 Padding(padding: EdgeInsets.only(right: 3)),
 
                 Text(
@@ -50,7 +47,7 @@ class _MyAppState extends State<MyApp> {
                     fontSize: 17,
                   ),
                 ),
-                 CircleAvatar(
+                CircleAvatar(
                   backgroundColor: Colors.amber,
                   radius: 20,
                   child: CircleAvatar(
@@ -70,15 +67,6 @@ class _MyAppState extends State<MyApp> {
                 crossAxisAlignment: CrossAxisAlignment.center,
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  Text(
-                    "Muslim",
-                    style: TextStyle(fontSize: 15, color: Colors.white),
-                  ),
-                  SizedBox(width: 2),
-                  CircleAvatar(
-                    backgroundColor: Colors.white,
-                    radius: 3,
-                  ),
                   SizedBox(width: 2),
                   Text(
                     "Developer",
@@ -120,7 +108,6 @@ class _MyAppState extends State<MyApp> {
                     radius: 3,
                   ),
                   SizedBox(width: 2),
-                 
                 ],
               ),
             )
